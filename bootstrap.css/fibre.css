@@ -1,0 +1,95 @@
+.yy {
+    display: flex;
+    gap: 0.5cm;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+.mm {
+    color: purple;
+    margin-top: 0.5rem;
+    text-transform: capitalize;
+    text-decoration: underline;
+    font-size: 1.2re.m;
+    font-weight: 500;
+}
+
+.tt {
+    display: flex;
+    gap: 1rem;
+}
+
+.btn-trial {
+    background-color: purple;
+    border-color: purple;
+    color: white;
+    outline: purple;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.ff {
+    display: flex;
+    gap: 0.5cm;
+    margin-top: 1cm;
+}
+
+.pp {
+    width: 30%;
+    margin-bottom: 2cm;
+    justify-content: center;
+}
+
+.vv {
+    margin-top: 1.5cm;
+    margin-left: 2cm;
+    color: purple;
+}
+
+/* .rw{
+    display: flex;
+    gap: 0.2cm;
+} */
+
+@media (min-width: 360px) and (max-width: 600px) {
+    #row {
+        flex-direction: column;
+        justify-content: center;
+
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+}
+
+#man {
+    justify-content: center;
+}
+
+@media(min-width: 360px) and (max-width: 600px) {
+    #man {
+        display: flex;
+
+
+        flex-direction: column;
+    }
+}
+
+.we {
+    width: 80%;
+}
+
+@media(min-width: 360px) and (max-width: 600px) {
+    #cc {
+        display: flex;
+        flex-direction: column;
+        background-color: antiquewhite;
+        justify-content: center;
+
+    }
+}
+#nn{
+    
+}
